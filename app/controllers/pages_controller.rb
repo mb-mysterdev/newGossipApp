@@ -16,9 +16,6 @@ class PagesController < ApplicationController
 
     end
 
-    def gossip
-
-    end
 
     def show
         
@@ -35,5 +32,7 @@ class PagesController < ApplicationController
         
 
     end
+
+
 
 end
