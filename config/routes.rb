@@ -12,6 +12,4 @@ Rails.application.routes.draw do
 
   get '/contact', to: 'pages#contact', as: 'contact'  #le lien || controller |methode | nom de page views
 
-
-
 end
