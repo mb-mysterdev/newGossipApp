@@ -36,12 +36,11 @@ puts "10 villes ont été créées"
 puts "10 users ont été créés"
 
 
-20.times do
+10.times do
 
-   gossip = Gossip.create!(title: Faker::Coffee.blend_name, content: Faker::MostInterestingManInTheWorld.quote, user: User.all.sample)
+   gossip = Gossip.create!(title: Faker::Name.first_name, content: Faker::Name.last_name, user: User.all.sample)
 
-  end
-
+   end
 
 puts "20 gossips ont été créés"
 
